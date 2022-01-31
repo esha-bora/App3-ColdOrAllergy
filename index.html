@@ -57,7 +57,8 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	    var coldPercent = ((cold_count)/(allergy_count + cold_count)) *100; 
 	    document.getElementById("results").innerHTML = "Probability it is allergies =" + allergyPercent + "<br> Probability it is a cold =" + coldPercent; 	 
         }
-	
+	// added function results to create variables that will calculate the percentage for allergies and cold based on the clicks 
+	// added getElement to display the results whenever the results button is clicked
 
   </script>
 
@@ -111,6 +112,8 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
     	</div>
 </div>
 
+	// added onclicks so that when either the yes or no button is clicked, the page will change to the next page
+
 <div class="page" id="two">
 	<div class="w3-container w3-flat-carrot">
 		<h1>Question 2</h1>
@@ -122,6 +125,9 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	<a href="#three" onclick="allergyAdd();" class="w3-btn w3-black"> No </a>
 	</div>
 </div>		
+	
+	// added onclicks so that when either the yes or no button is clicked, the page will change to the next page
+
 
 <div class="page" id="three">
 	<div class="w3-container w3-flat-carrot">
@@ -133,8 +139,10 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	<a href="#four" onclick="coldAdd();" class="w3-btn w3-black"> Yes </a>
 	<a href="#four" onclick="allergyAdd();" class="w3-btn w3-black"> No </a>
 	</div>
-	
+
 </div>
+ 	// added onclicks so that when either the yes or no button is clicked, the page will change to the next page
+
 <div class="page" id="four">
 	<div class="w3-container w3-flat-carrot">
 		<h1>Question 4</h1>
@@ -146,7 +154,9 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	<a href="#five" onclick="coldAdd();" class="w3-btn w3-black"> Chronic </a>
 	</div>
 </div>
-	
+
+	// added onclicks so that when either the yes or no button is clicked, the page will change to the next page
+
 	<div class="page" id="five">
 	<div class="w3-container w3-flat-carrot">
 		<h1>Question 5</h1>
@@ -158,7 +168,9 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	<a href="#six" onclick="coldAdd();" class="w3-btn w3-black"> No </a>
 	</div>
 </div>
-	
+
+	// added onclicks so that when either the yes or no button is clicked, the page will change to the next page
+
 	<div class="page" id="six">
 	<div class="w3-container w3-flat-carrot">
 		<h1>Question 6</h1>
@@ -170,7 +182,9 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	<a href="#Results" onclick="allergyAdd();" class="w3-btn w3-black"> No </a>
 	</div>
 </div>
-	
+
+	// added onclicks so that when either the yes or no button is clicked, the page will change to the next page
+
 <div class="page" id="Results">
 	<div class="w3-container w3-flat-carrot">
 		<h1>Results</h1>
@@ -187,7 +201,8 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	</div>
 	</div>
 </div>
-		
+	// added results page where clicking the button will display the percentages using the results function 
+	// added another button which takes user back to home page 
 		
 
 	
